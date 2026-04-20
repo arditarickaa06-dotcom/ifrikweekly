@@ -1,0 +1,159 @@
+<<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Mahasiswa</title>
+</head>
+<body>
+
+    <!-- Menu -->
+    <table border="1">
+        <tr>
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Profile</a></td>
+            <td><a href="#">Contact</a></td>
+            <td><a href="#">Data Mahasiswa</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Judul -->
+    <h3>Input Data Mahasiswa</h3>
+
+    <!-- Form -->
+    <form>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>UTS</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>UAS</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>TUGAS</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>FOTO</td>
+                <td>:</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit">Kirim Data</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+
+
+<h3>Form Lengkap Data Mahasiswa</h3>
+
+<form>
+    <ul style="list-style: none;">
+
+        <li>
+            Nama : <br>
+            <input type="text" name="nama">
+        </li><br>
+
+        <li>
+            NIM : <br>
+            <input type="number" name="nim">
+        </li><br>
+
+        <li>
+            Password : <br>
+            <input type="password" name="password">
+        </li><br>
+
+        <li>
+            Email : <br>
+            <input type="email" name="email">
+        </li><br>
+
+        <li>
+            No HP : <br>
+            <input type="tel" name="nohp">
+        </li><br>
+
+        <li>
+            Website Pribadi : <br>
+            <input type="url" name="website">
+        </li><br>
+
+        <li>
+            Tanggal Lahir : <br>
+            <input type="date" name="tgl">
+        </li><br>
+
+        <li>
+            Warna Favorit : <br>
+            <input type="color" name="warna">
+        </li><br>
+
+        <li>
+            Tingkat Kepuasan : <br>
+            <input type="range" name="kepuasan" min="0" max="100">
+        </li><br>
+
+        <li>
+            Jenis Kelamin : <br>
+            <input type="radio" name="jk" value="L"> Laki-laki
+            <input type="radio" name="jk" value="P"> Perempuan
+        </li><br>
+
+        <li>
+            Hobi : <br>
+            <input type="checkbox" name="hobi" value="musik"> Musik
+            <input type="checkbox" name="hobi" value="olahraga"> Olahraga
+            <input type="checkbox" name="hobi" value="game"> Game
+        </li><br>
+
+        <li>
+            Upload Foto : <br>
+            <input type="file" name="foto">
+        </li><br>
+
+        <li>
+            Alamat : <br>
+            <textarea name="alamat"></textarea>
+        </li><br>
+
+        <li>
+            Jurusan : <br>
+            <select name="jurusan">
+                <option value="">-- Pilih Jurusan --</option>
+                <option value="TI">Teknik Informatika</option>
+                <option value="SI">Sistem Informasi</option>
+                <option value="DKV">Desain Komunikasi Visual</option>
+            </select>
+        </li><br>
+
+        <li>
+            <button type="submit">Submit</button>
+        </li>
+
+    </ul>
+</form>
+</body>
+</html>
